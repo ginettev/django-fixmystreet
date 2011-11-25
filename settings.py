@@ -4,7 +4,6 @@ import logging
 
 PROJECT_PATH = os.path.abspath(os.path.dirname(__file__))
 POSTGIS_TEMPLATE = 'template_postgis'
-DEBUG=True
 
 logging.basicConfig(
     level = logging.DEBUG,
