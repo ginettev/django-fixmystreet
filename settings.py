@@ -4,6 +4,7 @@ import logging
 
 PROJECT_PATH = os.path.abspath(os.path.dirname(__file__))
 POSTGIS_TEMPLATE = 'template_postgis'
+DEBUG=True
 
 logging.basicConfig(
     level = logging.DEBUG,
@@ -176,7 +177,7 @@ except ImportError:
         sys.stderr.write( "local_settings.py not set; using default settings\n" )
 
 
-# Using django_testview from here (add 'TESTVIEW' to your local settings): 
+# Using django_testview from here (add 'TESTVIEW' to your local settings):
 # https://github.com/visiblegovernment/django_testview
 
 if DEBUG and globals().has_key('TESTVIEW'):

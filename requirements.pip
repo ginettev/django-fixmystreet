@@ -1,0 +1,7 @@
+django
+psycopg2==2.4.1
+django-stdimage
+django-transmeta
+django-google-analytics
+django-registration
+django-social-auth
